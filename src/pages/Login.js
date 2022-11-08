@@ -1,4 +1,5 @@
 import React from 'react';
+import ConnectModal from '../components/ConnectModal';
 import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
@@ -7,7 +8,7 @@ const Login = () => {
         <div>
             <Logo />
             <Navigation />
-            <h4>Login</h4>
+            <ConnectModal />
         </div>
     );
 };

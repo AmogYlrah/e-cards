@@ -1,9 +1,15 @@
 $font-1: "font-1", sans-serif;
 
+$color1: #eba937;
 $color-1: #eba937;
 $color-2: salmon;
 $color-3: #282c34;
-$white: rgb(243, 243, 243);
+$black1: rgb(28, 28, 28);
+$black2: rgb(49, 49, 49);
+$black3: rgb(70, 70, 70);
+$white: rgb(207, 207, 207);
+$grey: rgb(95, 95, 95);
+$shadow: 0 3px 20px rgba(0, 0, 0, 0.356);
 
 @mixin verticalCenter {
     display: flex;
@@ -25,4 +31,28 @@ body {
 
 li {
     list-style-type: none;
+}
+
+button,
+input[type="submit"] {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background: $color1;
+    transition: 0.2s;
+
+    &:hover {
+        filter: brightness(80%);
+        transform: translateX(2px);
+    }
+}
+
+input,
+textarea {
+    border-radius: 7px;
+    border: none;
+    resize: none;
+    margin: 5px;
+    padding: 8px;
+    background: $white;
 }
