@@ -2,6 +2,7 @@
   ul {
     display: flex;
     margin: 30px;
+    justify-content: center;
 
     a {
       text-decoration: none;
@@ -15,8 +16,12 @@
         &:hover {
           color: $color-3;
         }
+
       }
+
+
     }
+
 
     .nav-active {
       position: relative;

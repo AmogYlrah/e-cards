@@ -8,7 +8,8 @@ const About = () => {
             <Logo />
             <Navigation />
             <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem aspernatur expedita ullam enim neque animi odit eius quam ea.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Soluta autem aspernatur expedita ullam enim neque animi odit eius quam ea.</p>
         </div>
     );
 };
