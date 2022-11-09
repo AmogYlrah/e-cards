@@ -7,7 +7,7 @@ $color-3: #282c34;
 $black1: rgb(28, 28, 28);
 $black2: rgb(49, 49, 49);
 $black3: rgb(70, 70, 70);
-$white: rgb(207, 207, 207);
+$white: #717171;
 $grey: rgb(95, 95, 95);
 $shadow: 0 3px 20px rgba(0, 0, 0, 0.356);
 
@@ -26,8 +26,9 @@ $shadow: 0 3px 20px rgba(0, 0, 0, 0.356);
 body {
     background: $white;
     font-family: $font-1;
-    // @include verticalCenter;
+
 }
+
 
 li {
     list-style-type: none;

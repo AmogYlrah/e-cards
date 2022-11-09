@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../components/Logo';
+import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Logo />
             <Navigation />
             <h1>HOME</h1>
+            <Footer />
         </div>
     );
 };
